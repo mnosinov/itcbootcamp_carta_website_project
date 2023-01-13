@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1280px;
+  min-height:300px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+  height: 88px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.menu-holder {
+	display: flex;
+	align-items: center;
+	width: 1116px;
+	height: 100%;
+	background: blue;
+}
+
+.menu-holder .logo {
+	width: 97px;
+	height: 41px;
+}
+
+.menu-items {
+	width: 596px;
+	height: 100%;
+	background-color: green;
+}
+
+.menu-action {
+	width: 228px;
+	height: 100%;
+	background-color: pink;
+}
