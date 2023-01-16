@@ -141,6 +141,8 @@
 	flex-direction: row;
 	flex: 1 1 auto;
 	align-items: center;
+	width: 317px;
+	justify-content: space-between;
 }
 
 .hero-section .hero-center p {
@@ -151,5 +153,70 @@
 
 .hero-section .hero-left,
 .hero-section .hero-right {
-
 }
+
+.statistics-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.statistics-title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	max-width: 662px;
+	text-align: center;
+	margin-top: 116px;
+}
+
+.statistics-owners {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.statistics-owners-quanity {
+	font-size: 69px;
+	text-align: center;
+	margin-top: 65px;
+	border: 3px solid black;
+	padding: 3px 28px;
+}
+
+.statistics-owners-undertitle {
+	font-size: 16px;
+	margin-top: 4px;
+}
+
+.statistics-totals {
+	display: flex;
+	flex-direction: row;
+	width: 662px;
+	justify-content: space-between;
+	margin-top: 46px;
+}
+
+.assets-on-platform {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 175px;
+}
+
+.assets-on-platform .amount {
+	font-size: 34px;
+}
+
+.assets-on-platform .under-title{
+	font-size: 19px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.clients-list {
+	margin-top: 171px;
+	width: 990px;
+	display: flex;
+	justify-content: space-between;
+}
+
