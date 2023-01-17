@@ -98,6 +98,11 @@
 	align-items: baseline;
 	justify-content: center;
 	background-color: white;
+	cursor: pointer;
+}
+
+.menu-item:hover {
+	color: orange;
 }
 
 .menu-item img {
@@ -618,4 +623,14 @@
 .copyright-year {
 	margin-top: 14px;
 	font-size: 13px;
+}
+
+.arrow-right {
+	font-size: 1.3em;
+	margin-left: 0.2em;
+	font-weight: bold;
+}
+
+.arrow-down {
+	font-size: 1.8em;
 }
