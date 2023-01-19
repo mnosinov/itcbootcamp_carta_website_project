@@ -1,0 +1,71 @@
+@media only screen and (max-width:414px) {
+
+	.container {
+	}
+
+	.header {
+		display: none;
+	}
+
+	.hero-section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hero-left, .hero-right, .hero-center {
+		width: 100%;
+	}
+
+	.statistics-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.statistics-section h1 {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-size: 50px;
+		max-width: auto;
+		text-align: center;
+		margin-top: auto;
+	}
+
+	.statistics-totals {
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.clients-list {
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+
+	.support-section {
+		width: 100%;
+	}
+
+	.support-list ul {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		list-style-type: none;
+		height: auto;
+		align-items: center;
+	}
+
+	.support-list-item-details {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		height: auto;
+		align-items: center;
+	}
+}
