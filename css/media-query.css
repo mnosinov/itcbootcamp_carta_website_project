@@ -1,6 +1,8 @@
 @media only screen and (max-width:414px) {
 
 	.container {
+		width: 100%;
+		height: auto;
 	}
 
 	.header {
@@ -10,10 +12,52 @@
 	.hero-section {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		height: auto;
 	}
 
-	.hero-left, .hero-right, .hero-center {
+	.hero-left img, .hero-right img {
+		margin: 5px;
+		width: 250px;
+	}
+
+	.hero-left, .hero-right {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		width: auto;
+	}
+
+	.hero-section .hero-left {
+		align-items: center;
+		height: auto;
+	}
+
+	.hero-section .hero-right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: auto;
+	}
+
+	.hero-section .hero-center {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
 		width: 100%;
+	}
+
+	.hero-section .hero-center h1 {
+		font-size: 27px;
+		margin: 40px 0;
+	}
+
+	.hero-center-btns {
+		margin: 80px 0 50px;
 	}
 
 	.statistics-section {
@@ -68,4 +112,108 @@
 		height: auto;
 		align-items: center;
 	}
+
+	.builders-section>ul>li {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		height: auto;
+		align-items: center;
+	}
+
+	.compensation-details {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		height: auto;
+		align-items: center;
+	}
+
+	.compensation-section {
+		width: 100%;
+		height: auto;
+	}
+
+	.compensation-section>p {
+		width: 100%;
+	}
+
+	.ceomessage-section {
+		width: 100%;
+	}
+
+	.wecantwait {
+		width: 100%;
+	}
+
+	.wecantwait .btns {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.footer-section {
+		width: 100%;
+		flex-direction: column;
+		height: auto;
+		padding: 0;
+	}
+
+	.other-links {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.sipc-and-apps-sns {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	.sipc {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.apps-sns {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		height: auto;
+	}
+
+	.apps {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.sns {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.copyright {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.copyright-left,
+	.copyright-right {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.copyright-year {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+
 }
