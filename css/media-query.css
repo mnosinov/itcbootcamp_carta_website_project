@@ -5,6 +5,10 @@
 		height: auto;
 	}
 
+	.header-mobile {
+		display: block;
+	}
+	
 	.header {
 		display: none;
 	}

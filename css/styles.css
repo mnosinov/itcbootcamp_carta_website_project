@@ -19,6 +19,10 @@ body *, *:before, *:after {
   background-color: #FFFFFF;
 }
 
+.header-mobile {
+	display: none;
+}
+
 .header {
 	display: flex;
 	justify-content: center;
